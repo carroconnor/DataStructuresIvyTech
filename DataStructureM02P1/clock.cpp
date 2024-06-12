@@ -35,7 +35,6 @@ void clockType::setHour(int hour)
 
 clockType::clockType(int hour, int min, int sec, hourType typ, amPmType tod) : type(typ), timeOfDay(tod)
 {
-
     setHour(hour);
     setMinute(min);
     setSecond(sec);
